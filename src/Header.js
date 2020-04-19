@@ -34,6 +34,7 @@ class Header extends Component {
   	}
 }
 
+//取得指定的 props 傳回 Header 即可
 const mapStateToProps = (state) => {
   return {
     themeColor: state.themeColor
